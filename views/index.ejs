@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Customizable Web App UI</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <h1>Customizable HTML UI</h1>
+  <form action="/save" method="POST">
+    <textarea name="customHtml" cols="80" rows="20"><%= customHtml %></textarea>
+    <br>
+    <button type="submit">Save</button>
+    <a href="/preview" target="_blank" class="preview-btn">Preview</a>
+  </form>
+  <footer>
+    <p>Powered by Node.js, Express, and EJS. Deploy-ready for Azure App Service.</p>
+  </footer>
+</body>
+</html>
